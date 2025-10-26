@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global */
+body {
+  @apply bg-green-50 font-sans;
+}
+
+/* Hide scrollbar for mobile */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Input base */
+input,
+select,
+textarea,
+button {
+  @apply text-gray-800;
+}
+
+/* Utility for form inputs */
+.input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md 
+         focus:outline-none focus:ring-2 focus:ring-green-500 bg-white;
+}
+
+/* Buttons */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium;
+}
+
+.btn-green {
+  @apply bg-green-600 text-white hover:bg-green-700;
+}
+
+.btn-blue {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+/* --- Extra polish (zip jaisa look) --- */
+
+/* Card look */
+.card {
+  @apply bg-white rounded-2xl shadow p-4;
+}
+
+/* Headings */
+.h1 {
+  @apply text-2xl font-bold text-green-800;
+}
+
+.h2 {
+  @apply text-xl font-semibold text-green-700;
+}
+
+/* Page container */
+.page {
+  @apply max-w-4xl mx-auto p-4;
+}
