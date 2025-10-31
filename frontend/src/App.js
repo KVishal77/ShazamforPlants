@@ -7,7 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import AddPlant from "./pages/AddPlant";
 import Search from "./pages/Search";
 import About from "./pages/About";
-import PlantPage from "./pages/PlantPage";   // ✅ PlantPage use karna hai
+import PlantPage from "./pages/PlantPage";   // ✅ Use PlantPage 
 import Layout from "./components/Layout";
 import ProtectedRoute from "./components/ProtectedRoute";
 
