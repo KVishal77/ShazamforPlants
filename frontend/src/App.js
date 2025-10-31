@@ -69,7 +69,7 @@ function App() {
           element={
             <ProtectedRoute>
               <Layout>
-                <PlantPage />   {/* ✅ SinglePlant की जगह PlantPage */}
+                <PlantPage />   {/* ✅ SinglePlant Insted of PlantPage */}
               </Layout>
             </ProtectedRoute>
           }
